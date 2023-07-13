@@ -4,35 +4,42 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Practice</title>
+    <title>Devils Website</title>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Oswald:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/all.min.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
 </head>
 <body>
+    <i class="fa-solid fa-bars menuIcon"></i>
 
-    <div id="banner">
+    <!-- nav part start -->
+    <nav>
         <div class="container">
-            <!-- nav part start -->
-            <nav>
-                <div class="nav-main">
-                    <div class="nav-logo"></div>
-                    <div class="menu">
-                        <ul>
-                            <li><a href="#">Home</a></li>
-                            <li><a href="#">Service</a></li>
-                            <li><a href="#">Blog</a></li>
-                            <li><a href="#">About</a></li>
-                            <li><a href="#">Contact</a></li>
-                        </ul>
-                    </div>
-                    <div class="nav-search">
-                        <input type="search" placeholder="search here">
-                    </div>
+            <div class="nav-main">
+                <div class="nav-search">
+                    <input type="search" placeholder="search here">
                 </div>
-            </nav>
-            <!-- nav part end -->
+                <div class="menu">
+                    <ul>
+                        <div class="tringle">
+                            <i class="fa-solid fa-xmark closeIcon"></i>
+                        </div>
+                        <li><a href="#banner">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#gallery">Gallery</a></li>
+                        <li><a href="#testi">Service</a></li>
+                        <li><a href="#service">Testimonial</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- nav part end -->
 
+
+    <section id="banner">
+        <div class="container">
             <div class="banner-main">
                 <div class="banner-text">
                     <h1>Designs your eyeballs 
@@ -40,10 +47,10 @@
                     <a href="#">Get Started Today</a>
                     <p>Lorem ipsum dolor sit amet, consectetur </p>
                 </div>
-                <div class="banner-text"></div>
             </div>
         </div>
-    </div>
+    </section>
+
 
     <!-- about part start -->
     <section>
@@ -80,7 +87,6 @@
                                 Aenean euismod bibendum laoreet.Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
                                 Aenean euismod bibendum laoreet.</h5>
                         </div>
-
                         <div class="sub-text">
                             <div class="img">
                                 <img src="images/about-png1.png" alt="">
@@ -116,7 +122,7 @@
                                 Aenean euismod bibendum laoreet.</h5>
                         </div>
                     </div>
-                    <div class="about-img">
+                    <div class="about-img mb">
                         <img src="images/about2.jpg" alt="">
                         <div class="overly">
                             <div class="eye">
@@ -149,7 +155,7 @@
                             <img src="images/g1.jpg" alt="">
                             <div class="a-overly">
                                 <div class="share">
-                                    <a href="#"><i class="fa-solid fa-share-nodes"></i></a>
+                                    <i class="fa-solid fa-share-nodes"></i>
                                     <div class="link">
                                         <ul>
                                             <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
@@ -569,9 +575,6 @@
     </footer>
     <!-- footer part end -->
 
-
-    <!-- about part start -->
-    <!-- about part end -->
-    
+    <script src="js/custom.js"></script>
 </body>
 </html>
